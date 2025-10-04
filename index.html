@@ -7,45 +7,58 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="max-w-xl mx-auto border-black min-h-dvh bg-gradient-to-b from-black via-sky-950 to-gray-800">
-    <header>
+    <header class="text-white">
         <img src="./assets/programmer-povFront.png" alt="programmer" class=" object-cover mask-radial-at-center mask-radial-from-45% mask-radial-to-70%">
-        <section class="flex gap-2">
-            <a class="bg-purple-100 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform ml-2" href="#" target="_blank" aria-label="twitch">
+        <header class="flex flex-col justify-center items-center mb-8 -mt-4">
+            <span class="text-sky-400 text-xl font-mono px-3 py-1 border border-sky-500/50 rounded-full flex items-center justify-center shadow-sm bg-black/65 cursor-crosshair z-10">
+                @programmer
+                <svg class="ml-1 w-5 h-5 text-sky-400 inline" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                <path fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707a1 1 0 00-1.414-1.414L9 11.172l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd" />
+                </svg>
+            </span>
+            <h1 class="text-3xl font-extrabold leading-tight mt-1">Programmer TW</h1>
+        </header>
+
+ 
+        <section class="flex gap-2 justify-center align-center">
+            <a class="bg-purple-100 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform ml-2 sm:size-16" href="#" target="_blank" aria-label="twitch">
                 <svg width="28" height="28">
                     <use xlink:href="./assets/sprite.svg#twitch"></use>
                 </svg>
             </a>
 
             <!-- GitHub -->
-            <a class="bg-gray-900 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform ml-2" href="#" target="_blank" aria-label="github">
+            <a class="bg-gray-900 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform ml-2 sm:size-16" href="#" target="_blank" aria-label="github">
                 <svg width="28" height="28">
                     <use xlink:href="./assets/sprite.svg#github"></use>
                 </svg>
             </a>
 
             <!-- Instagram (degradado) -->
-            <a class="p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform ml-2 bg-gradient-to-tr from-yellow-300 via-pink-700 to-purple-600" href="#" target="_blank" aria-label="instagram" >
+            <a class="p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform ml-2 bg-gradient-to-tr from-yellow-300 via-pink-700 to-purple-600 sm:size-16" href="#" target="_blank" aria-label="instagram" >
                 <svg width="28" height="28">
                     <use xlink:href="./assets/sprite.svg#instagram"></use>
                 </svg>
             </a>
 
             <!-- LinkedIn -->
-            <a class="bg-blue-100 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform ml-2" href="#" target="_blank" aria-label="linkedin">
+            <a class="bg-blue-100 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform ml-2 sm:size-16" href="#" target="_blank" aria-label="linkedin">
                 <svg width="28" height="28">
                     <use xlink:href="./assets/sprite.svg#linkedin"></use>
                 </svg>
             </a>
 
             <!-- YouTube -->
-            <a class="bg-red-100 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform ml-2" href="#" target="_blank" aria-label="youtube">
+            <a class="bg-red-100 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform ml-2 sm:size-16" href="#" target="_blank" aria-label="youtube">
                 <svg width="28" height="28">
                     <use xlink:href="./assets/sprite.svg#youtube"></use>
                 </svg>
             </a>
 
             <!-- X (Twitter) -->
-            <a class="bg-black p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform ml-2" href="#" target="_blank" aria-label="x">
+            <a class="bg-black p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform ml-2 sm:size-16" href="#" target="_blank" aria-label="x">
                 <svg width="28" height="28">
                     <use xlink:href="./assets/sprite.svg#x"></use>
                 </svg>
