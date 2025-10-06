@@ -1,1 +1,10 @@
 @import "tailwindcss";
+@theme {
+    --color-flame:red;
+
+    /* BREAKPOINTS */
+    --breakpoint-xs:350px
+}
+.social-button{
+    @apply p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform ml-2 sm:size-16
+}
